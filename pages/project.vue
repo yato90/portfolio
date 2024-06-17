@@ -2,13 +2,13 @@
 import { ref } from 'vue';
 import yam_music from "../assets/img/project/yam_music.png";
 import color_generator from "../assets/img/project/color_generator.png";
-import landing_example from "../assets/img/project/landing_example.png";
+import owl_shop from "../assets/img/project/Fullstack_ecommerce.png";
 import uber_example from "../assets/img/project/uber_example.png";
 
 const projects = ref([
     { id: 1, link:'yam-music', name: 'Yam_music', img: yam_music, description: "Музыкальный сервис, разработанный с использованием фреймворка Vue.js"},
     { id: 2, link:'color-generator', name: 'Color_generator', img: color_generator, description: "Простой цветовой генератор"},
-    { id: 3, link:'landing_example', name: 'Landing_example', img: landing_example, description: "landing example Nuxt 3"},
+    { id: 3, link:'owl_shop-fullstack', name: 'owl_shop-fullstack', img: owl_shop, description: "Fullstack приложение интернет-магазина"},
     { id: 4, link:'Uber-example', name: 'Uber', img: uber_example, description: "Верстка uber с использованием sass"},
 ]);
 const getImgPath = (img: string) => {
